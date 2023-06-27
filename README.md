@@ -1,10 +1,9 @@
 # To-Do List usando um servidor (json-server)
-
 <div align="center">
   <h1>Imagem do mini projeto</h1>
   <p>O intuito desse trabalho foi consolidar os aprendizados do useState e useEffect.</p>
-  <img src="https://github.com/tddomingues/binarioParaDecimal/assets/129981877/e7e22138-62c3-47fa-b07c-1c33f6eb2661" width="500px">
-  <img src="https://github.com/tddomingues/binarioParaDecimal/assets/129981877/886e5548-d6f1-4e24-9ef1-d0ddedde9cdd" width="500px">
+  <img src="https://github.com/tddomingues/todo_servidor/assets/129981877/4878e4e6-f780-4400-a59d-e15a2663bcc0" width="500px">
+  <img src="https://github.com/tddomingues/todo_servidor/assets/129981877/4c0c91cd-b529-45bd-a4e6-1ae088b6d867" width="500px">
 </div>
 
 
