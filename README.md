@@ -1,3 +1,13 @@
+# To-Do List usando um servidor (json-server)
+
+<div align="center">
+  <h1>Imagem do mini projeto</h1>
+  <p>O intuito desse trabalho foi consolidar os aprendizados do useState e useEffect.</p>
+  <img src="https://github.com/tddomingues/binarioParaDecimal/assets/129981877/e7e22138-62c3-47fa-b07c-1c33f6eb2661" width="500px">
+  <img src="https://github.com/tddomingues/binarioParaDecimal/assets/129981877/886e5548-d6f1-4e24-9ef1-d0ddedde9cdd" width="500px">
+</div>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
