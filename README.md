@@ -2,6 +2,7 @@
 <div align="center">
   <h1>Imagem do mini projeto</h1>
   <p>O intuito desse trabalho foi consolidar os aprendizados do useState e useEffect.</p>
+  <p>Suas funções são simples. Ele adiciona as tarefas e exclui. No momento não há como dar checked ou editar. Estou buscando aprender.</p>
   <img src="https://github.com/tddomingues/todo_servidor/assets/129981877/4878e4e6-f780-4400-a59d-e15a2663bcc0" width="500px">
   <img src="https://github.com/tddomingues/todo_servidor/assets/129981877/4c0c91cd-b529-45bd-a4e6-1ae088b6d867" width="500px">
 </div>
