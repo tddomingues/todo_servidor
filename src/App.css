@@ -1,38 +1,72 @@
-.App {
+.titulo {
   text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid transparent;
+  background-color: #ffffff;
+  width: 500px;
+  max-height: 400px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-style: italic;
+  background-color: #ededed;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.btnEnviar {
+  background-color: #0075c2;
+  color: #ffffff;
+  width: 60px;
+}
+
+.btnDelete {
+  background-color: transparent;
+  color: #cb3830;
+  margin-right: 5px;
+}
+
+.box-lista {
+  margin-top: 1.5rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+  width: 460px;
+  padding: 0.6rem;
+  margin-bottom: 2px;
+}
+
+li p {
+  word-wrap: break-word;
+  width: 400px;
 }
