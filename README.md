@@ -1,4 +1,4 @@
-# To-Do List usando um servidor (json-server)
+# To-Do List usando um react.js com um servidor (json-server)
 <div align="center">
   <h1>Imagem do mini projeto</h1>
   <p>O intuito desse trabalho foi consolidar os aprendizados do useState e useEffect.</p>
