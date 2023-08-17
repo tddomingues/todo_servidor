@@ -105,8 +105,6 @@ body {
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	line-height: 1;
-	background-image: linear-gradient(#34baab, #459a96, #466067);
-	height: 100vh;
 }
 
 ol,
