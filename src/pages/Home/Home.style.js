@@ -3,21 +3,36 @@ import { styled } from "styled-components";
 export const Container = styled.div`
   background-color: #2b2b2b;
   padding: 100px 1em 1em 1em;
-  height: 80vh;
+  min-height: 900px;
+
+  @media screen and (max-width: 576px) {
+    padding-top: 50px;
+  }
 `;
 
 export const Box = styled.div`
   width: 600px;
   background-color: #353634;
   margin: 0 auto;
+
+  @media screen and (max-width: 767px) {
+    width: 400px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    width: 280px;
+  }
 `;
 
 export const Title = styled.div`
   font-size: 60px;
-  color: #fcfdff;
+  color: #2b2b2b;
+  text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 10px 0px 10px;
+
+  
 `;
 
 export const TaskField = styled.div`
@@ -30,7 +45,7 @@ export const TaskField = styled.div`
   }
 
   & input {
-    padding: 4px;
+    padding: 6px 4px 6px 4px;
     background-color: #fff;
     font-size: 25px;
   }
@@ -41,6 +56,17 @@ export const TaskField = styled.div`
     font-size: 25px;
     background-color: #fff;
     color: #2c9fa3;
+  }
+
+  @media screen and (max-width: 576px) {
+    & input {
+      width: 200px;
+      font-size: 20px;
+    }
+
+    & button {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -84,6 +110,12 @@ export const IconText = styled.div`
     max-width: 400px;
     word-wrap: break-word;
     color: #fcfdff;
+  }
+
+  @media screen and (max-width: 576px) {
+    & p {
+    max-width: 150px;
+  }
   }
 `;
 

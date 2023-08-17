@@ -108,6 +108,7 @@ const Home = () => {
                   type="text"
                   onChange={(e) => setTask(e.target.value)}
                   value={task}
+                  placeholder="Digite uma tarefa..."
                 />
               </label>
               <button>+</button>
@@ -158,11 +159,26 @@ const Home = () => {
                   </p>
                 </IconText>
                 <EditDelete>
-                  <button onClick={() => enableEditing(item.id, item.task)}>
+                  {}
+                  <button
+                    onClick={() => enableEditing(item.id, item.task)}
+                    style={
+                      activeEdit === true
+                        ? { visibility: "hidden" }
+                        : { visibility: "visible" }
+                    }
+                  >
                     <AiFillEdit style={{ color: "#2c9fa3" }} />
                   </button>
 
-                  <button onClick={() => handleDeleted(item.id)}>
+                  <button
+                    onClick={() => handleDeleted(item.id)}
+                    style={
+                      activeEdit === true
+                        ? { visibility: "hidden" }
+                        : { display: "visible" }
+                    }
+                  >
                     <AiFillDelete style={{ color: "#e6324b" }} />
                   </button>
                 </EditDelete>
